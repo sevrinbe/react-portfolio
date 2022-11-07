@@ -1,21 +1,13 @@
 import "./App.css";
 import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
+import Footer from "./components/pages//Footer";
+import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
   return (
-    <div className=" w-full">
-      <main className=" container text-gray-400 bg-gray-900 body-font">
-        <Navbar />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
+    <div className="h-screen w-screen">
+      <main className="text-gray-400 bg-gray-900 body-font h-full w-full">
+        <PortfolioContainer />
         <Footer />
       </main>
     </div>
